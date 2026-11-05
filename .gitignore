@@ -1,0 +1,36 @@
+# ===== Virtual environment =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== Python cache & build =====
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== pip =====
+pip-log.txt
+pip-delete-this-directory.txt
+.pip-cache/
+
+# ===== Rahasia / konfigurasi lokal =====
+.env
+.env.*
+!.env.example
+
+# ===== Log & hasil ETL =====
+logs/*
+!logs/.gitkeep
+*.log
+
+# ===== Editor & OS =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
