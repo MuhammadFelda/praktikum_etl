@@ -1,8 +1,4 @@
-# Data Warehouse Bank (PKDD'99 Financial)
-
-ETL dengan **Python + SQLAlchemy**, data warehouse di **PostgreSQL**, dan dashboard di **Apache Superset**.
-Semua berjalan langsung di komputer (tanpa Docker). Konfigurasi disimpan di satu file **`.env`**.
-
+# Project ETL
 ---
 
 ## 1. Gambaran Umum
