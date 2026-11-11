@@ -292,19 +292,3 @@ Simpan setiap chart dengan **Save → Add to dashboard**.
 ### d. Filter dashboard
 
 Di dashboard, buka panel **Filters → + Add filter**, lalu buat filter untuk `tahun`, `region`, `gender`, dan `jenis_kartu`. Terapkan ke semua chart.
-
-### e. Tips tampilan
-
-* **Time Range:** data berasal dari tahun 1993–1998. Untuk chart yang memakai kolom tanggal, ubah **Time Range** menjadi **No filter**. Kalau tidak, chart bisa tampil "No results".
-* **Satuan angka:** `M` = juta, `k` = ribu. Mata uang dataset adalah **koruna Ceko (CZK)**. Contohnya, `3.44M` berarti 3,44 juta CZK.
-* **Format angka:** di tab **Customize**, ubah **Y Axis Format** (misalnya `,d` atau `.3s`) dan centang **Show Value**.
-* **Label metric:** klik metric lalu ganti labelnya, misalnya `SUM(jumlah_bertanda)` menjadi `Arus Kas Bersih (CZK)`.
-
-### Cara membaca chart utama
-
-| Chart | Arti |
-|---|---|
-| Arus Kas Bersih | `jumlah_bertanda` positif untuk uang masuk dan negatif untuk uang keluar. Nilai positif berarti dana nasabah bertambah pada tahun itu |
-| Rasio Kredit Bermasalah | Persentase pinjaman berstatus **B** (selesai, tidak dibayar) atau **D** (berjalan, nasabah berutang) |
-
----
